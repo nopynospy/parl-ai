@@ -20,9 +20,16 @@ model_dict = {
   'model_file': 'zoo:dodecadialogue/empathetic_dialogues_ft/model',
   'inference': 'beam',
   'beam_size': 5,
-  'datapath':  os.path.dirname(parlai.__file__)
+  'beam-min-length': 10,
+  'beam-block-ngram': 3,
+  'beam-context-block-ngram': 3,
+  'datapath':  os.path.dirname(parlai.__file__),
+  'n_image_tokens': 1,
+  'n_image_channels': 1,
+  'image_fusion_type': 'late'
 }
-# modelzoo_path('', 'zoo:dodecadialogue/empathetic_dialogues_ft/model')
+
 opt = Opt(model_dict)
+print(opt)
 
 interactive(opt)
