@@ -26,7 +26,9 @@ model_dict = {
   'datapath':  os.path.dirname(parlai.__file__),
   'n_image_tokens': 1,
   'n_image_channels': 1,
-  'image_fusion_type': 'late'
+  'image_fusion_type': 'late',
+  'task': 'personachat',
+  'datatype': 'valid'
 }
 
 opt = Opt(model_dict)

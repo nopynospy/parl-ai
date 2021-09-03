@@ -9,4 +9,4 @@ parlai interactive -mf zoo:dodecadialogue/empathetic_dialogues_ft/model --infere
 - Delete all files in emphathetic_dialogues_ft
 
 # To-do
-1. Fix RuntimeError: No task specified. Please select a task with --task {task_name}.
+1. Fix parameters.
