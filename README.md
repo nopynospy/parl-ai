@@ -10,3 +10,6 @@ parlai interactive -mf zoo:dodecadialogue/empathetic_dialogues_ft/model --infere
 
 # To-do
 1. Fix parameters.
+
+# Intallation
+Microsoft Visual C++ Redistributable
