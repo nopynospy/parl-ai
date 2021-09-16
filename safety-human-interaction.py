@@ -6,5 +6,5 @@ Interactive.main(
     model='transformer/classifier',
     print_scores=True,
     single_turn=True,
-    outfile='safety-human-0-50.jsonl'
+    outfile='safety-human.jsonl'
 )

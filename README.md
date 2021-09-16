@@ -1,15 +1,5 @@
 # parl-ai
 
-# Run Emphathic Model
-parlai interactive -mf zoo:dodecadialogue/empathetic_dialogues_ft/model --inference beam --beam-size 5 --beam-min-length 10 --beam-block-ngram 3 --beam-context-block-ngram 3
-
-# Common fixes
-
-1. EOFError: Compressed file ended before the end-of-stream marker was reached
-- Delete all files in emphathetic_dialogues_ft
-
-# To-do
-1. Fix parameters.
-
 # Intallation
-Microsoft Visual C++ Redistributable
+1. Install Microsoft Visual C++ Redistributable at https://aka.ms/vs/16/release/vc_redist.x64.exe
+2. Please make sure you are using python version 3.7 and 64-bit
