@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 parlai = "*"
+spacy = "*"
+spacymoji = "*"
 
 [dev-packages]
 
