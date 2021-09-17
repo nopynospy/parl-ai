@@ -70,6 +70,6 @@ def de_contraction(doc):
     new_doc = doc
     for i, token in enumerate(doc):
         new_doc = nlp.make_doc(new_doc[:i].text + ' ' + token.norm_ + ' ' + new_doc[((i)+1):].text)
-    print(new_doc)
+    return(new_doc)
 
-de_contraction(nlp(u"Oh no he didn't. I can't and I won't. I'll know what I'm gonna do."))
+print(de_contraction(nlp(u"Oh no he didn't. I can't and I won't. I'll know what I'm gonna do.")))

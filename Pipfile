@@ -8,6 +8,7 @@ parlai = "*"
 spacy = "*"
 spacymoji = "*"
 pyspellchecker = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 
