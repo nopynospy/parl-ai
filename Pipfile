@@ -9,6 +9,9 @@ spacy = "*"
 spacymoji = "*"
 pyspellchecker = "*"
 beautifulsoup4 = "*"
+pandas = "*"
+jupyterlab = "*"
+matplotlib = "*"
 
 [dev-packages]
 
