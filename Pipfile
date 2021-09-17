@@ -7,6 +7,7 @@ name = "pypi"
 parlai = "*"
 spacy = "*"
 spacymoji = "*"
+pyspellchecker = "*"
 
 [dev-packages]
 
