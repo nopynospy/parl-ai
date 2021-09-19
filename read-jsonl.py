@@ -1,5 +1,9 @@
 import json
 
+"""
+Reads a jsonl file, which is the format used to save ParlAI chat results.
+Counts the total number of non-toxic responses from the dialogue safety model.
+"""
 with open('safety-human-emoji.jsonl', 'r') as json_file:
     json_list = list(json_file)
 

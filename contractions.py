@@ -4,12 +4,12 @@ from spacy.attrs import ORTH, LEMMA, NORM, TAG
 
 nlp = spacy.load('en_core_web_sm')
 
-'''
-dealing with contractions by expanding spaCy's tokenizer exceptions
-ORTH is the form in the text/corpus
-LEMMA is the dictionary form
-TAG is part of speech
-'''
+"""
+Deals with contractions by expanding spaCy's tokenizer exceptions.
+ORTH is the form in the text/corpus.
+LEMMA is the dictionary form.
+TAG is part of speech.
+"""
 TOKENIZER_EXCEPTIONS = {
 # do
     "don't": [
@@ -67,6 +67,9 @@ TOKENIZER_EXCEPTIONS = {
 }
 
 def de_contraction(doc):
+    """
+    Replaces contractions with full form using the defined TOKENIZER_EXCEPTIONS.
+    """
     new_doc = doc
     for i, token in enumerate(doc):
         new_doc = nlp.make_doc(new_doc[:i].text + ' ' + token.norm_ + ' ' + new_doc[((i)+1):].text)

@@ -2,20 +2,30 @@ import spacy
 import re
 
 nlp = spacy.load("en_core_web_sm")
-nlp.add_pipe("emoji", first=True)
+nlp.add_pipe("emoji", first=True)   # Add spacymoji to pipeline
 
 def deEmojify(text):
+    """
+    Uses the following regex pattern to remove emoticons from text.
+    """
     regrex_pattern = re.compile("["
-                           u"\U0001F600-\U0001F64F"  # emoticons
-                           u"\U0001F300-\U0001F5FF"  # symbols & pictographs
-                           u"\U0001F680-\U0001F6FF"  # transport & map symbols
-                           u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
+                           u"\U0001F600-\U0001F64F"  # Emoticons
+                           u"\U0001F300-\U0001F5FF"  # Symbols & pictographs
+                           u"\U0001F680-\U0001F6FF"  # Transport & map symbols
+                           u"\U0001F1E0-\U0001F1FF"  # Flags (iOS)
                            u"\U00002702-\U000027B0"
                            u"\U000024C2-\U0001F251"
                            "]+", flags=re.UNICODE)
     return regrex_pattern.sub(r'',text)
 
 def text_translate_emoji(input, output):
+    """
+    Opens two text files, input and output.
+    For each line in input, check if there is emoji.
+    If there is, use spacymoji to get the emoji's meaning.
+    The demoji function defined earlier is called to remove the emoji.
+    Output is saved.
+    """
     f = open(output,"w", encoding="utf8")
     with open(input, 'r', encoding="utf8") as fp:
         Lines = fp.readlines()
@@ -31,6 +41,7 @@ def text_translate_emoji(input, output):
                 f.write(new_doc)
             else:
                 f.write(line)
+    fp.close()
     f.close()
 
 text_translate_emoji('twitter.txt', 'twitter-emojis.txt')

@@ -1,11 +1,11 @@
-# parl-ai
+# Capstone Project - Tan Kelvin (TP063098)
 
-Parlai Dialogue Safety Model with Noisy Channel and Emoticons Translation on ChatEval Tweets
+ParlAI Dialogue Safety Model with Emoticons and Internet Slangs Translation
 
 # Research Questions
-1. What is the performance of Parlai Dialogue Safety Model on ChatEval Tweeter dataset?
-2. Does spaCy noisy channel improve the performance of Parlai Dialogue Safety Model on ChatEval Tweeter dataset?
-3. Does spaCymoji emoticon translation improve the performance of Parlai Dialogue Safety Model on ChatEval Tweeter dataset?
+1. What are the limitations faced by current state of the art natural language processing tools in handling toxic comments?
+2. How could emoticons and Internet slangs improve the performance of ParlAI Dialogue Safety model on the Wikipedia Toxic Comments and ChatEval Twitter datasets?
+3. How could the proposed classification model improve the existing performance of ParlAI Twitter model on ChatEval Twitter dataset?
 
 # Intallation
 1. Install Microsoft Visual C++ Redistributable at https://aka.ms/vs/16/release/vc_redist.x64.exe
