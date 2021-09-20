@@ -16,6 +16,7 @@ wordcloud = "*"
 seaborn = "*"
 lexical-diversity = "*"
 nbconvert = {extras = ["webpdf"], version = "*"}
+demoji = "*"
 
 [dev-packages]
 
