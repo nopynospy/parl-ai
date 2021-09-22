@@ -17,8 +17,11 @@ seaborn = "*"
 lexical-diversity = "*"
 nbconvert = {extras = ["webpdf"], version = "*"}
 demoji = "*"
+<<<<<<< HEAD
 numpy = "*"
 sklearn = "*"
+=======
+>>>>>>> 055e172345ef4da7411c6180da8d17d2db7718d4
 
 [dev-packages]
 
