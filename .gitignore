@@ -1,10 +1,11 @@
 models
 eda_chateval.csv
 eda_wiki_train.csv
-<<<<<<< HEAD
 eda_wiki_test.csv
 wtc_df.csv
 single_turn_safety.json
-=======
-eda_wiki_test.csv
->>>>>>> 055e172345ef4da7411c6180da8d17d2db7718d4
+retweets.csv
+wtc_mod.csv
+wtc_eda.csv
+hatespeech_id_label.csv
+hatespeech_text_label_vote.csv
