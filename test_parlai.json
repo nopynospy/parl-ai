@@ -1,0 +1,1 @@
+{ "dialog": [ [  {"id": "partner1", "text": "hello how are you today?"},  {"id": "partner2", "text": "i'm great thanks! what are you doing?"},  {"id": "partner1", "text": "i've just been bikinig."},        {"id": "partner2", "text": "oh nice, i haven't got on a bike in years!"} ] ]}
