@@ -21,7 +21,7 @@
         "init_model": null,
         "dict_class": "parlai.core.dict:DictionaryAgent",
         "report_filename": "davidson_1.json",
-        "world_logs": "",
+        "world_logs": "davidson_1.jsonl",
         "save_format": "conversations",
         "area_under_curve_digits": -1,
         "area_under_curve_class": null,
@@ -162,9 +162,10 @@
             "datatype": "test",
             "model": "transformer/classifier",
             "model_file": "C:\\Users\\tanke\\.virtualenvs\\parl-ai-mNqky53H\\lib\\site-packages\\data\\models\\dialogue_safety/single_turn/model",
-            "batchsize": 40
+            "batchsize": 40,
+            "world_logs": "davidson_1.jsonl"
         },
-        "starttime": "Oct02_23-13"
+        "starttime": "Nov02_09-07"
     },
     "report": {
         "exs": 2974,
@@ -185,12 +186,12 @@
         "class___ok___recall": 0.6405353728489483,
         "class___ok___f1": 0.6843718079673136,
         "weighted_f1": 0.8932446777087174,
-        "exps": 17.890512464331753,
+        "exps": 17.871081409488315,
         "ltpb": 263.62666666666667,
-        "ltps": 118.95192953518469,
+        "ltps": 118.82201469956182,
         "ctpb": 895.4133333333333,
-        "ctps": 404.02264717099246,
+        "ctps": 403.5813887903992,
         "tpb": 1159.04,
-        "tps": 522.9745767061771
+        "tps": 522.4034034899611
     }
 }
