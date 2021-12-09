@@ -19,6 +19,8 @@ nbconvert = {extras = ["webpdf"], version = "*"}
 demoji = "*"
 numpy = "*"
 sklearn = "*"
+param = "*"
+panel = "*"
 
 [dev-packages]
 
