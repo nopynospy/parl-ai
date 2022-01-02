@@ -119,3 +119,6 @@ Three students from a Masters in Data Science programme ranked the Tweet respons
 4. Install packages with either pipenv or pip install
 
 # Note: For the dataset by Founta et al., please obtain from her at https://github.com/ENCASEH2020/hatespeech-twitter
+
+# Credits
+Special thanks to my supervisor, Prof. Dr. R. Logeswaran, Ms. Founta (for her dataset) and my friends from APU
