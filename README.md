@@ -4,7 +4,7 @@ ParlAI Dialogue Safety Utility with Emoticons and Internet Slangs Translation
 
 # Main Idea
 <img
-src="https://raw.githubusercontent.com/nopynospy/parl-ai/colab_branch/flowcharts/chatbotflow.png?token=AUKVVNTX5JXRA6M5CHWUYWDB2E5BU"
+src="https://github.com/nopynospy/parl-ai/blob/colab_branch/flowcharts/chatbotflow.png"
 raw=true
 />
 To create a social media chatbot for countering hate speech, where a classifier first detects if a text is toxic. If it is toxic, reply with the Emphathetic model, else reply with the Tweeter model.
